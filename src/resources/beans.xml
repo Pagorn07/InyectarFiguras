@@ -1,0 +1,14 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+       <bean id="text" class="com.pablo.spring.inyeccionFiguras.Text" scope="prototype"/>
+       <bean id="dot" class="com.pablo.spring.inyeccionFiguras.Dot" scope="prototype"/>
+       <bean id="line" class="com.pablo.spring.inyeccionFiguras.Line" scope="prototype"/>
+       <bean id="circle" class="com.pablo.spring.inyeccionFiguras.Circle" scope="prototype"/>
+       <bean id="square" class="com.pablo.spring.inyeccionFiguras.Square" scope="prototype"/>
+       <bean id="rectangle" class="com.pablo.spring.inyeccionFiguras.Rectangle" scope="prototype"/>
+       <bean id="poligon" class="com.pablo.spring.inyeccionFiguras.Poligon" scope="prototype"/>
+
+</beans>
